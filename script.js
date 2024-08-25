@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', () => {
     const inputs = document.querySelectorAll('.input');
     const daysSpan = document.getElementById('days');
     const monthsSpan = document.getElementById('months');
@@ -56,7 +55,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize display
     updateAgeDisplay();
-
-
-    
-});
