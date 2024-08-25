@@ -7,6 +7,7 @@ body{
     font-family: 'Poppins',sans-serif;
     background-color: var(--lightGrey)
 }
+
 :root{
     --purple:hsl(259, 100%, 65%);
     --lightRed:hsl(0, 100%, 67%);
@@ -52,15 +53,14 @@ input{
     height: 100vh;
 }
 .container{
-    padding: 1rem;
+    padding: 2rem;
     width: 40rem;
     position: relative;
     background-color: white;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
+    border-bottom-right-radius: 10rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 .form-container{
     display: flex;
@@ -90,7 +90,7 @@ img{
 .text-container h1{
     margin: 0;
     font-style: italic;
-    font-weight:var(--Fweight-800);
+    font-weight: 900;
 }
 .text-container span{
     color: var(--purple);
