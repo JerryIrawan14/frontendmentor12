@@ -1,0 +1,119 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    background-color: var(--lightGrey)
+}
+:root{
+    --purple:hsl(259, 100%, 65%);
+    --lightRed:hsl(0, 100%, 67%);
+
+    --white:(0, 0%, 100%);
+    --offWhite:hsl(0, 0%, 94%);
+    --lightGrey:hsl(0, 0%, 86%);
+    --smokeGrey:hsl(0, 1%, 44%);
+    --offBlack:hsl(0, 0%, 8%);
+
+    --fontSize:2rem;
+    --Fweight-400:400;
+    --Fweight-700:700;
+    --Fweight-800:800;
+}
+label{
+    color: var(--smokeGrey);
+    font-size: 1rem;
+    font-weight: var(--Fweight-700);
+}
+input{
+    color: var(--smokeGrey);
+    font-weight: var(--Fweight-700);
+    font-size: 1.5rem;
+    width: 7.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    border: solid hsl(0, 0%, 86%) 0.1px;
+    border-radius: 0.2rem;
+    -webkit-border-radius: 0.2rem;
+    -moz-border-radius: 0.2rem;
+    -ms-border-radius: 0.2rem;
+    -o-border-radius: 0.2rem;
+}
+.filled{
+    color: var(--offBlack);
+}
+.containerMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    padding: 1rem;
+    width: 40rem;
+    position: relative;
+    background-color: white;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+.form-container{
+    display: flex;
+    gap: 1rem;
+}
+hr{
+    color: var(--lightRed);
+    opacity: 20%;
+    margin: 2rem 0rem;
+}
+img{
+    background-color: var(--purple);
+    width: 2rem;
+    padding: 1rem;
+    border-radius: 4rem;
+    -webkit-border-radius: 4rem;
+    -moz-border-radius: 4rem;
+    -ms-border-radius: 4rem;
+    -o-border-radius: 4rem;
+    position: absolute;
+    right: 1rem;
+    top:6rem;
+}
+.text-container{
+    font-size: var(--fontSize);
+}
+.text-container h1{
+    margin: 0;
+    font-style: italic;
+    font-weight:var(--Fweight-800);
+}
+.text-container span{
+    color: var(--purple);
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 20rem;
+    }
+    .form-container input{
+        width: 4.5rem;
+    }
+    hr{
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+    }
+    img{
+        width: 1.5rem;
+        padding: 1rem;
+        left: 9rem;
+        top: 7.5rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}

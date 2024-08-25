@@ -1,0 +1,6 @@
+1. ketika form diisi maka value di dalam
+akan hilang diganti yang sedang diisi
+2. ketika form diisi akan mentriger span
+3. span akan menghitung sesuai input yang 
+diberikan
+4.current date - date being filled
